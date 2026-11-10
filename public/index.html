@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Новогодний розыгрыш</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="page">
+    <header class="header">
+      <p class="eyebrow">Новогодний розыгрыш компании</p>
+      <h1 id="status" class="title">До розыгрыша осталось</h1>
+      <div id="countdown" class="countdown">--:--:--:--</div>
+    </header>
+
+    <section class="info">
+      <div class="info-card">
+        <span class="label">Участников</span>
+        <strong id="participants">—</strong>
+      </div>
+      <div class="info-card">
+        <span class="label">Призов</span>
+        <strong id="prize-count">10</strong>
+      </div>
+    </section>
+
+    <section class="prizes-section">
+      <h2>Призы</h2>
+      <ol id="prizes" class="prizes"></ol>
+    </section>
+
+    <section id="results" class="results" hidden>
+      <h2>Победители</h2>
+      <ol id="results-list" class="results-list"></ol>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
