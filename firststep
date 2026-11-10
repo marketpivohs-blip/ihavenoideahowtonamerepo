@@ -1,0 +1,15 @@
+mkdir snow-raffle && cd snow-raffle
+git init
+# создай файлы из моего предыдущего сообщения:
+# api/draw.js
+# data/codes.json
+# data/prizes.json
+# public/index.html
+# public/styles.css
+# public/app.js
+
+git add .
+git commit -m "Шаг 1: скелет розыгрыша"
+git remote add origin https://github.com/ТВОЙ_НИК/snow-raffle.git
+git branch -M main
+git push -u origin main
